@@ -47,9 +47,10 @@ jobs:
         run: |
           # Check Status
           #ls -rf
+          ls Basic_Stats_in_Python_Full_Repo
 
           # Workbooks
-          cp -r Basic_Stats_in_Python_Full_Repo/student_work/project/ .
+          cp -r Basic_Stats_in_Python_Full_Repo/student_work/project/* .
           ls -rf
 
           # Clear

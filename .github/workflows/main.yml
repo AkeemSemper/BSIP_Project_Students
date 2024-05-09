@@ -50,6 +50,7 @@ jobs:
 
           # Workbooks
           cp -r Basic_Stats_in_Python_Full_Repo/student_work/project/ .
+          ls -rf
 
           # Clear
           rm -rf Basic_Stats_in_Python_Full_Repo
